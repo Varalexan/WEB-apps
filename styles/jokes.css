@@ -1,0 +1,40 @@
+.content {
+    width: 100%;
+}
+
+.jokes {
+    background: #897ffd;
+    color: #010736;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 10px;
+    border-radius: 6px;
+}
+
+.jokes__title {
+    font-weight: 600;
+    color: #5635aa;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 17px;
+}
+
+.jokes__btn {
+    margin-top: 8px;
+    border: none;
+    background: #6b5ee6;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 6px;
+    transition: all ease-in-out 0.2s;
+}
+
+.jokes__btn:hover {
+    background: #5635aa;
+}

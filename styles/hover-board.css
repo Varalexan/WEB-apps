@@ -1,0 +1,17 @@
+.hover-board {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+}
+
+.hover-board__pixel {
+    width: 5px;
+    height: 5px;
+    background: rgba(0, 0, 0, 0.15);
+    transition: 2s ease;
+}
+
+.hover-board__pixel:hover {
+    transition-duration: 0s;
+}
+
